@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!-- Hello HTML world, this is my first Project. -->
+    <title>
+        Anna Linke: Introduction to Programming Nanodegree
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="header-footer">
+        <div class="header-footer-box-1">
+            Anna
+            <br>
+            Linke
+        </div>
+        <div class="header-footer-box-2">
+            Introduction to Programming Nanodegree
+        </div>
+    </div>
+    <div class="lessons">
+        <h1 class="lessons-title">
+            Lesson 1: The Basics of the Web and HTML
+        </h1>
+        <div class="subjects">
+            <h2 class="subjects-title">
+                HTML - Hyper Text Markup Language
+            </h2>
+            <p>HTML documents are the foundation of the Word Wide Web</p>
+            <p><b>HTML contains of:</b></p>
+            <ul>
+                <li>Text (what you see)</li>
+                <li>Markup (what it looks like)</li>
+                <li>References to other documents (e.g. pictures and videos)</li>
+                <li>Hyperlinks to other webpages</li>
+            </ul>
+        </div>
+        <div class="subjects">
+            <h2 class="subjects-title">
+                Markup (Tags and Attibutes)
+            </h2>
+            <p>Markup renders plain text. Specific tag elements can be used to display different text styles and formatting.</p>
+            <h3 class="subjects-title">
+                Tags
+            </h3>
+            <p>Most tags have an opening tag and a closing tag. Two common tags are the &lt;b&gt; and the &lt;em&gt; tag:</p>
+            <p><b>The  &lt;b&gt; tag is used to change the fond to bold and is closed with &lt;/b&gt;</b></p>
+            <p><em>The  &lt;em&gt; tag is used to change the fond to italic and is closed with &lt;/em&gt;</em></p>
+            <h3 class="subjects-title">
+                Attributes
+            </h3>
+            <p>A tag can have multiple attributes. An example of a tag using an attribute is the anchor tag. The anchor tag is used to create links to other websites.
+            <br>
+            This <a href="https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/e-48508417/m-48723411">link</a> explains how the achor tag works.</p>
+        </div>
+        <div class="subjects">
+            <h2 class="subjects-title">
+                Adding Images
+            </h2>
+            <p>Images can be added by using the following tag:</p>
+            <p>&lt;img src="URL" alt="text"&gt;</p>
+            <p><b>SRC</b> stands for source and contains the link to where the picture is stored.
+            <br>
+            <b>ALT</b> the text in the quotes is displayed if the piture cannot be found or read out if reading is enabled.</p>
+        </div>
+        <div class="subjects">
+            <h2 class="subjects-title">
+                Inline and Block Tags
+            </h2>
+            <p><em>Inline tags</em> are text elements. For example the &lt;br&gt; tag can be used in between text to start a new line.
+            <br>
+            <em>Block tags</em> create a box around the element and can have hight and width. For example the &lt;p&gt; tag creates a new paragraph box that needs to be closed with a closing tag (&lt;/p&gt;).</p>
+        </div>
+    </div>
+    <div class="lessons">
+        <h1 class="lessons-title">
+            Lesson 2: Creating a Structured Document with HTML
+        </h1>
+        <div class="subjects">
+            <h2 class="subjects-title">
+                Main Elements to Create Websites
+            </h2>
+            <ul>
+                <li><b>HTML</b> defines the structure of a website.</li>
+                <li><b>CSS</b> controls the style of a website.</li>
+                <li><b>Javascript</b> adds functionality to a website.</li>
+            </ul>
+        </div>
+        <div class="subjects">
+            <h2 class="subjects-title">
+                Developer Tools
+            </h2>
+            <p>Browser developer tools can be used to analyse websites. For example this includes the following options:</p>
+            <p><em>Structure:</em> the panel in the developer tools shows how the browser interprets the structure of a webpage.
+            <br>
+            <em>Tags:</em> the structure can be expanded until the HTML code for each element is visible.
+            <br>
+            <em>Style section:</em> when an element is selected the style section shows the style of the element (color, fond size, font family, etc.).</p>
+        </div>
+        <div class="subjects">
+            <h2 class="subjects-title">
+                Tree-like Structure (Document Object Model)
+            </h2>
+            <p>The tree-like structure (also known as tree diagramm) is a way to display the hierarchical nature of a structure/document in graphical form.</p>
+            <p>In programming this is also called DOM (Document Object Model). HTML elements often contain more elements; the browser displays this as boxes inside boxes.</p>
+        </div>
+        <div class="subjects">
+            <h2 class="subjects-title">
+                Boxifying Design
+            </h2>
+            <p><b><em>Every element</em> on a website is rectangular.</b></p>
+            <p>A website usually has three main boxes each containing more boxes:</p>
+            <ul>
+                <li>Header box</li>
+                <li>Middle box</li>
+                <li>Footer box</li>
+            </ul>
+            <p>The first step to develop a website is to devide the page into boxes. This is usually done by using &lt;div&gt; or &lt;span&gt; tags.</p>
+            <P>This <a href="https://www.udacity.com/course/viewer#!/c-ud721-nd/l-3555039510/e-2672258561/m-2600669133">video</a> explains how to devide a webpage into seperate box elements.</p>
+        </div>
+    </div>
+    <div class="lessons">
+        <h1 class="lessons-title">
+            Lesson 3: Adding CSS Style to HTML Structure
+        </h1>
+        <div class="subjects">
+            <h2 class="subjects-title">
+                CSS - Cascading Style Sheets
+            </h2>
+            <p><b>CSS allows programmers to <em>avoid repetition</em>.</b></p>
+            <p><b>Benifits of avoiding repetition</b> are for example that changes can be easly applied to the whole website (container elements with the same style) and the code is easier to review and shorter.</p>
+            <p>Multiple cascading style sheets can be used to define the style of an HTML document.</p>
+        </div>
+        <div class="subjects">
+            <h2 class="subjects-title">
+                Inheritance
+            </h2>
+            <p>Inheritance is a <em>key feature</em> of CSS and is based on an ancestor-decendent relationship. Decendent elements automatically inherit text-related properties (like color, font and letter-spacing), however box related properties (like background, border or position) are not inherited.</p>
+        </div>
+        <div class="subjects">
+            <h2 class="subjects-title">
+                Selectors and Styles
+            </h2>
+            <p><b>Selectors can be tags or classes.</b></p>
+            <p>The selector defines to which elements a particular style will be applied.</p>
+            <p>Style (rules) examples:</p>
+            <ul>
+                <li>font-style: italic, normal, etc.</li>
+                <li>font-weight: bold, normal, etc.</li>
+                <li>color: black, white</li>
+            </ul>
+            <p>The style rules are defined in curley backets using the following syntax {attribute: value}.</p>
+        </div>
+        <div class="subjects">
+            <h2 class="subjects-title">
+                Ways to Link CSS into a Document
+            </h2>
+            <h3 class="subjects-title">Method 1</h3>
+            <p><b>Write CSS in the &lt;head&gt; of your HTML document.</b></p>
+            <p>This method is usfull for very small projects.
+            <br>
+            Simply add a &lt;style&gt; element containing the CSS in the &lt;head&gt; element of the HTML document.</p>
+            <h3 class="subjects-title">Method 2</h3>
+            <p><b>Link your HTML document to a seperate CSS file.</b></p>
+            <p>This method helps to stay organized when working on bigger projects.
+            <br>
+            Add a &lt;link&gt; element containing the link to the CSS file in the &lt;head&gt; element of the HTML document.</p>
+            <h3 class="subjects-title">Method 3</h3>
+            <p><b>Write style inline with HTML.</b></p>
+            <p>This method is not recommended as it leads to repetitive code and makes websites harder to maintain.
+            <br>
+            The style is directly added as an attribute in the &lt;div&gt; element.</P>
+        </div>
+    </div>
+    <div class="header-footer">
+        <div class="header-footer-box-1">
+            Anna
+            <br>
+            Linke
+        </div>
+        <div class="header-footer-box-2">
+            Introduction to Programming Nanodegree
+        </div>
+    </div>
+</body>
+</html>
