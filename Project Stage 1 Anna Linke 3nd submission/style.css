@@ -1,0 +1,65 @@
+/* This is a CSS comment.*/
+
+/*
+Comments are only to help PEOPLE read a code file. The
+computer ignores them.
+*/
+
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+
+.header-footer {
+	background-color: rgb(213, 232, 228);
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px auto;
+	font-family: sans-serif;
+	font-weight: 600;
+	display : flex	
+}
+
+.header-footer-box-1 {
+	background-color: rgb(120, 155, 147);
+	border-radius: 5px;
+	color: rgb(213, 232, 228);
+	padding: 15px;
+	margin: 10px;
+	font-size: 25px;
+}
+
+.header-footer-box-2 {
+	background-color: rgb(213, 232, 228);
+	border-radius: 5px;
+	color: rgb(120, 155, 147);
+	padding: 20px;
+	margin: 10px auto;
+	font-size: 45px;
+}
+
+.lessons {
+	background-color: rgb(120, 155, 147);
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px auto;
+	font-family: sans-serif;
+}
+
+.lessons-title {
+	color: white;
+}
+
+.subjects {
+	background-color: white;
+	border-radius: 5px;
+	color: rgb(107, 136, 129);
+	padding: 10px;
+	margin: 10px auto;
+}
+
+.subjects-title {
+	color: rgb(120, 155, 147);
+}
